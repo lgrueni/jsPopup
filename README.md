@@ -16,7 +16,7 @@ A more detailed example is available in the folder "Example"
 
 ## Arguments
 ### Types
-The arguments `type` can take followed values:
+The argument `type` can takes followed string values:
 - message
 - save
 - confirm
