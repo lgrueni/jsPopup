@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <title>Example popup</title>
+    <script type="text/javascript" src="../Popup.js"¨></script>
+    <script>
+        function showMessagePopup() {
+            new Popup('message', {
+                title: 'Hello world!',
+                body: 'This is the body',
+                customCSS: 'background-color:red;color:white;'
+            })
+        }
+        function showConfirmPopup() {
+            new Popup('confirm', {
+                title: 'Please confirm',
+                body: 'The confirm button will show a validation popup',
+                confirmCB: showGoodProcessPopup
+            })
+        }
+        function showGoodProcessPopup() {
+            new Popup('goodProcess', {
+                title: 'Hello world!',
+                body: 'This is the body',
+            })
+        }
+    </script>
+</head>
+<body>
+    <button onclick="showMessagePopup()">Message popup</button>
+    <button onclick="showConfirmPopup()">Confirm popup</button>
+</body>

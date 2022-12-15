@@ -1,0 +1,47 @@
+.popup {
+    display: none;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0 ,0 , 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.popup .insideBlock {
+    margin: 10% auto;
+    width : fit-content;
+    max-width: 80%;
+    min-width: 20%;
+    background-color: initial;
+    padding: 1em;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    color: var(--TrackBodyText);
+    overflow: auto;
+}
+
+.popup .insideBlock .popupProgressBar {
+    width: 100%;
+    display: none;
+}
+.popup .insideBlock .popupProgressBar .bar {
+    width: 1%;
+    height: 3px;
+    margin-bottom: 3%;
+    background-color: black;
+}
+
+.popup .insideBlock .title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+.popup .insideBlock .body {
+    font-size: 20px;
+}
+.popup .insideBlock button {
+    padding: 0.5em;
+    font-size: 24px;
+    float: right;
+}
