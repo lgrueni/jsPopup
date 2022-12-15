@@ -31,9 +31,18 @@ The argument `params` is an Object can take followed keys:
 - `autoCloseTime` - Optional - Time after which the popup closes
 - `closeCB` - Optional - A function which call when popup is close
 - `saveCB` - Optional - A function which call when save button is pressed. Work only with type `confirm`
-- `noDeleteOnClose` - Optional - Set it to `true` if you don't want to delete the instance when popup closes
+- `noDeleteOnClose` - Optional - Set it to `true` if you don't want to delete the instance when popup closes (when hidePopup is called)
 - `noDirectShow` - Optional - Set it to `true` if you don't want to show the popup direct after the instantiation
 - `customCSS` - Optional - Add custom css (like background or text color) to the popup box
 
 #### Notes
 Depends of the type, some `params` are required. If some of required one is not present, an error will be raised in the console with the name of the missed params.
+
+## Methods
+These methods are available if you want to change something
+- `showPopup` Show popup
+- `hidePopup` Hide popup
+- `getBodyEl` Get the body element
+- `setTitle` Set title when you want to change it after the instantiation
+- `setBody` Set body when you want to change it after the instantiation (only text)
+- `setBodyEl` Set body element
