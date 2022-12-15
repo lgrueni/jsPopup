@@ -5,7 +5,7 @@ jsPopup is a JS Class which allow to show popup on your website.
 Simply add the js file popup.js to your project and import in the head section of your html
 
 ## Use
-When you want to use a popup, you have to create a new instance of the `Popup` class. First argument is the type, second are params. Arguments are detailed in the section [Arguments](README.md#Arguments).
+When you want to use a popup, you have to create a new instance of the `Popup` class. First argument is the type, second are params. Arguments are detailed in the section [Arguments](README.md#arguments).
 ```
 new Popup('message', {
     title: 'Hello world!',
