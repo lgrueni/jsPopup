@@ -4,7 +4,7 @@ class Popup {
      * @param {String} _type Type of popup
      * @param {String} _params.title Title of popup
      * @param {String} _params.body HTML body
-     * @param {Integer} _params.autoCloseTime Time[ms] after popup will be close
+     * @param {Integer} [_params.autoCloseTime] Time[ms] after popup will be close
      * @param {Function} [_params.closeCB] Callback on close
      * @param {Function} [_params.saveCB] Callback on save
      * @param {Boolean} [_params.noDeleteOnClose] True to not delete instance when popup is close
