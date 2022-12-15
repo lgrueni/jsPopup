@@ -15,7 +15,7 @@ var myPopup = new Popup('message', {
     body: 'This is the body',
 })
 ```
-> Popup is showed direct. If you don't want, check the params argument.
+> Popup is showed direct. If you don't want, add `noDirectShow = true` in the argument `params`.
 
 > A more detailed example is available in the folder "Example"
 
